@@ -31,6 +31,29 @@ class Site extends CI_Controller {
 
 		$this->load->view('about_page', $data);
 	}
+
+
+	public function members(){
+
+		$this->load->library('table');
+		$data['project_name'] = "gIdentity";
+		$data['title'] = $data['project_name'];
+		$data['query'] = $this->db->query('SELECT full_name, email FROM members');
+		
+		$this->load->view('include/header', $data);
+		$this->load->view('include/top-navigation', $data);
+
+		$this->load->view('site/members_list', $data);
+
+		$this->load->view('include/footer');
+
+
+		
+
+
+
+
+	}
 }
 
 /* End of file welcome.php */
