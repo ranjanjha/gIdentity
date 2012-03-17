@@ -14,4 +14,4 @@ web1:
     - "mv pagoda/.htaccess .htaccess"
 
 db1:
-  name: gIdentity
+  name: gidentity
