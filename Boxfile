@@ -1,0 +1,17 @@
+web1:
+  name: codeigniter
+  shared_writable_dirs: 
+    - application/cache
+    - application/logs
+  php_extensions:
+    - mysqli
+    - mysql
+  php_date_timezone: "Asia/Calcutta"
+  after_build:
+    # Move pagoda config file to app/config
+    - "mv pagoda/database.php application/config/database.php"
+    - "mv pagoda/config.php application/config/config.php"
+    - "mv pagoda/.htaccess .htaccess"
+
+db1:
+  name: gIdentity

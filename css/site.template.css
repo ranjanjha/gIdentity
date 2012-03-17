@@ -1,0 +1,13 @@
+body {
+	padding-top: 80px;
+}
+
+
+.signup label {
+	margin-top: 20px;
+
+}
+
+.signup .form-actions{
+	padding-left: 20px;
+}
