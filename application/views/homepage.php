@@ -1,11 +1,11 @@
-    <div class="container">
-
+    <div class="container homepage">
    
 
     <div class="row">
       <div class="span8">
         
-      	<div class="hero-unit">
+      	<div class="hero-unit banner-home">
+
    			<h1>gIdentity</h1>
     		<p>A Global Identity Manager</p>
     		<p>
