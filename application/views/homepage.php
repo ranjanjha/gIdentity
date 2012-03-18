@@ -1,11 +1,19 @@
+<<<<<<< HEAD
+    <div class="container homepage">
+=======
     <div class="container">
+>>>>>>> de54931b01c41db3d17a23c92acdb1243acfcef4
 
    
 
     <div class="row">
       <div class="span8">
         
+<<<<<<< HEAD
+      	<div class="hero-unit banner-home">
+=======
       	<div class="hero-unit">
+>>>>>>> de54931b01c41db3d17a23c92acdb1243acfcef4
    			<h1>gIdentity</h1>
     		<p>A Global Identity Manager</p>
     		<p>

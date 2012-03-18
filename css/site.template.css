@@ -10,4 +10,31 @@ body {
 
 .signup .form-actions{
 	padding-left: 20px;
+<<<<<<< HEAD
+}
+
+
+
+/***************************************/
+/* Homepage layouts						*/
+/************************************/
+
+.homepage .banner-home {
+	background: url('../assests/img/gidentity-banner-home.jpg');
+	height: 300px;
+}
+
+.homepage  #signup_homepage{
+	height: 300px !important;
+}
+
+
+/***************************************/
+/* Homepage Colors					*/
+/************************************/
+.homepage .banner-home h1, .homepage .banner-home p {
+	color: #fff;
+	text-shadow: 0px 0px 5px #fff;
+=======
+>>>>>>> de54931b01c41db3d17a23c92acdb1243acfcef4
 }
